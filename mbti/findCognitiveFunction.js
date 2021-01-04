@@ -7,6 +7,8 @@
  *  inferior: string,
  * }}
  */
+
 export function findCognitiveFunction(mbti) {
-  throw new Error("Not implemented");
+  let func1 = mbti[1];
+  let func2 = mbti[2];
 }
