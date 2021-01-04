@@ -26,4 +26,5 @@ export function findCognitiveFunction(mbti) {
 
   const isExtro = mbti[0] === "E";
   const dominant = isExtro ? extro : intro;
+  const auxiliary = isExtro ? intro : extro;
 }
