@@ -4,5 +4,9 @@
  * @return {number[]}
  */
 export function shuffle(cards) {
-  return [...cards.slice(2, 6), ...cards];
+  const top = cards.slice(0, 15);
+  const mid = cards.slice(15, 35);
+  const bot = cards.slice(35);
+
+  return [...bot, ...top, ...mid];
 }
