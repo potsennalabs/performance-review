@@ -19,5 +19,8 @@ export function findCognitiveFunction(mbti) {
   if (attr === "P") {
     extro = func1 + "e";
     intro = func2 + "i";
+  } else {
+    extro = func2 + "e";
+    intro = func1 + "i";
   }
 }
