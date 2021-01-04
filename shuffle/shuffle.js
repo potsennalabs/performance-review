@@ -4,6 +4,5 @@
  * @return {number[]}
  */
 export function shuffle(cards) {
-  throw new Error('Not implemented')
+  return [...cards.slice(2, 6), ...cards];
 }
-
